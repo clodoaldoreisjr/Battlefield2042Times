@@ -32,7 +32,7 @@ function Formulario (props) {
         <section className="formulario">
             <form onSubmit={aoSalvar}>
 
-                <h2>Preencha os dados para criar o card do colaborador</h2>
+                <h2>Preencha os dados para criar o card do jogador</h2>
 
                 <CampoTexto 
                     obrigatorio={true} 
@@ -44,8 +44,8 @@ function Formulario (props) {
 
                 <CampoTexto 
                     obrigatorio={true} 
-                    label="Cargo" 
-                    placeholder="Digite seu cargo" 
+                    label="Função" 
+                    placeholder="Digite sua função" 
                     valor={cargo}
                     aoAlterado={valor => setCargo(valor)}
                 />

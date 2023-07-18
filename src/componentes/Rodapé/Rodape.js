@@ -5,7 +5,7 @@ function Rodape () {
 
     return ( 
     <header className="rodape">
-        <img src="/imagens/rodape.png" alt="Rodape principal da pagina"></img>
+        <img src="/imagens/rodape.jpg" alt="Rodape principal da pagina"></img>
     </header>
 
     )

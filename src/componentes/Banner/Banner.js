@@ -6,7 +6,7 @@ function Banner () {
         // JSX
 
         <header className="banner"> 
-            <img src="/imagens/banner.png" alt="O banner principal da pagina do Organo"></img>
+            <img src="/imagens/banner.jpg" alt="O banner principal da pagina do Organo"></img>
         </header>
         
     )
